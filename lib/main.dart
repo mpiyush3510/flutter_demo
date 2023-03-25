@@ -10,8 +10,9 @@ void main() {
             backgroundColor: Color.fromARGB(255, 228, 138, 138),
           ),
           body: Image(
-            image: NetworkImage(
-                "https://mpiyush3510.carrd.co/assets/images/image01.jpg?v=db364dae"),
+            image: AssetImage("images/rajat_frag.jpg"),
+            // image: NetworkImage(
+            //     "https://mpiyush3510.carrd.co/assets/images/image01.jpg?v=db364dae"),
           ),
         )),
   );
